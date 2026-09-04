@@ -464,7 +464,7 @@
     <p class="resumen-body">
       Al cierre del presente período, el seguimiento cuenta con
       <strong>18 ACR activos y 77 acciones comprometidas</strong>.
-      <span class="hi-green">6 ACR han cerrado el 100% de sus acciones</span>. El área de <span class="hi-red">Distribución</span> requiere atención: registra 2 acciones vencidas (multas transporte y estándar operacional de salas).
+      <span class="hi-green">6 ACR han cerrado el 100% de sus acciones</span>. Las áreas de <span class="hi-red">Distribución</span> y <span class="hi-red">Logística</span> requieren atención inmediata: Distribución registra 2 acciones vencidas (estándar operacional y multas transporte) y Logística acumula 8 acciones con fecha vencida desde el 31 de agosto.
     </p>
   </div>
 
@@ -483,15 +483,15 @@
       <div class="kpi-label">Acciones Totales</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-green">33</div>
+      <div class="kpi-num c-green">35</div>
       <div class="kpi-label">Finalizadas</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num" style="color:var(--amber)">38</div>
+      <div class="kpi-num" style="color:var(--amber)">29</div>
       <div class="kpi-label">En Curso</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-red">6</div>
+      <div class="kpi-num c-red">13</div>
       <div class="kpi-label">Atrasadas</div>
     </div>
   </div>
@@ -500,15 +500,15 @@
   <div class="panel" style="margin-bottom:28px;">
     <div class="panel-title">ACR por área &nbsp;<span class="hint-desktop" style="font-size:0.72rem;color:var(--muted);font-weight:700;">— Haz clic para ver el detalle por área</span></div>
 
-        <!-- Mantención: 4 fin, 8 ec, 4 at / 16 total -->
+        <!-- Mantención: 5 fin, 8 ec, 3 at / 16 total -->
       <div class="area-item" onclick="toggleArea('area-mantencion')">
         <div class="area-name"><span class="area-expand-icon" id="aicon-mantencion">▸</span>Mantención · 2 ACR · 16 acciones</div>
         <div class="area-bar">
-          <div class="ab-g" style="width:25%"></div>
+          <div class="ab-g" style="width:31%"></div>
           <div class="ab-a" style="width:50%"></div>
-          <div class="ab-r" style="width:25%"></div>
+          <div class="ab-r" style="width:19%"></div>
         </div>
-        <div class="area-detail">4 finalizadas · 8 en curso · 4 atrasadas</div>
+        <div class="area-detail">5 finalizadas · 8 en curso · 3 atrasadas</div>
         <div class="area-acr-list" id="area-mantencion">
           <!-- ACR N°5: 1 fin, 2 ec, 1 at / 4 total -->
           <div class="acr-sub-item">
@@ -520,15 +520,15 @@
             </div>
             <div class="area-detail">1 fin · 2 en curso · 1 atrasada · 4 acciones</div>
           </div>
-          <!-- ACR N°9: 3 fin, 6 ec, 3 at / 12 total -->
+          <!-- ACR N°9: 4 fin, 6 ec, 2 at / 12 total -->
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°9 — Pérdida nivel de servicio · Línea PITA</div>
             <div class="area-bar">
-              <div class="ab-g" style="width:25%"></div>
+              <div class="ab-g" style="width:33%"></div>
               <div class="ab-a" style="width:50%"></div>
-              <div class="ab-r" style="width:25%"></div>
+              <div class="ab-r" style="width:17%"></div>
             </div>
-            <div class="area-detail">3 fin · 6 en curso · 3 atrasadas · 12 acciones</div>
+            <div class="area-detail">4 fin · 6 en curso · 2 atrasadas · 12 acciones</div>
           </div>
         </div>
       </div>
@@ -582,14 +582,14 @@
         </div>
       </div>
 
-      <!-- Producción: 9 fin, 13 ec, 0 at / 22 total (4 ACR) -->
+      <!-- Producción: 10 fin, 12 ec, 0 at / 22 total (4 ACR) -->
       <div class="area-item" onclick="toggleArea('area-produccion')">
         <div class="area-name"><span class="area-expand-icon" id="aicon-produccion">▸</span>Producción · 4 ACR · 22 acciones</div>
         <div class="area-bar">
-          <div class="ab-g" style="width:41%"></div>
-          <div class="ab-a" style="width:59%"></div>
+          <div class="ab-g" style="width:45%"></div>
+          <div class="ab-a" style="width:55%"></div>
         </div>
-        <div class="area-detail">9 fin · 13 en curso · 0 atrasadas</div>
+        <div class="area-detail">10 fin · 12 en curso · 0 atrasadas</div>
         <div class="area-acr-list" id="area-produccion">
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°3 — Mini Brownie Bañado · Merma por densidad</div>
@@ -616,9 +616,10 @@
           <div class="acr-sub-item">
             <div class="acr-sub-name">NDS Molde Calabaza en 19% · Semana 34</div>
             <div class="area-bar">
-              <div class="ab-a" style="width:100%"></div>
+              <div class="ab-g" style="width:14%"></div>
+              <div class="ab-a" style="width:86%"></div>
             </div>
-            <div class="area-detail">0 fin · 7 en curso · 0 atrasadas · 7 acciones</div>
+            <div class="area-detail">1 fin · 6 en curso · 0 atrasadas · 7 acciones</div>
           </div>
         </div>
       </div>
@@ -675,28 +676,29 @@
         </div>
       </div>
 
-      <!-- Logística: 3 fin, 10 ec, 0 at / 13 total (3 ACR) -->
+      <!-- Logística: 3 fin, 2 ec, 8 at / 13 total (3 ACR) -->
       <div class="area-item" onclick="toggleArea('area-logistica')">
         <div class="area-name"><span class="area-expand-icon" id="aicon-logistica">▸</span>Logística · 3 ACR · 13 acciones</div>
         <div class="area-bar">
           <div class="ab-g" style="width:23%"></div>
-          <div class="ab-a" style="width:77%"></div>
+          <div class="ab-a" style="width:15%"></div>
+          <div class="ab-r" style="width:62%"></div>
         </div>
-        <div class="area-detail">3 fin · 10 en curso · 0 atrasadas</div>
+        <div class="area-detail">3 fin · 2 en curso · 8 atrasadas</div>
         <div class="area-acr-list" id="area-logistica">
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°11 — Diferencias de inventario · No almacenamiento de saldos de pallets</div>
             <div class="area-bar">
-              <div class="ab-a" style="width:100%"></div>
+              <div class="ab-r" style="width:100%"></div>
             </div>
-            <div class="area-detail">0 fin · 4 en curso · 0 atrasadas · 4 acciones</div>
+            <div class="area-detail">0 fin · 0 en curso · 4 atrasadas · 4 acciones</div>
           </div>
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°12 — Diferencias de inventario · Ingreso de productos recuperados sin traslado en SAP</div>
             <div class="area-bar">
-              <div class="ab-a" style="width:100%"></div>
+              <div class="ab-r" style="width:100%"></div>
             </div>
-            <div class="area-detail">0 fin · 4 en curso · 0 atrasadas · 4 acciones</div>
+            <div class="area-detail">0 fin · 0 en curso · 4 atrasadas · 4 acciones</div>
           </div>
           <div class="acr-sub-item">
             <div class="acr-sub-name">Rechazo de Sala · Producto defectuoso Semana 34</div>
@@ -876,7 +878,7 @@
             <td><span class="expand-icon" id="icon-acr11">▸</span>Diferencias de inventario · No almacenamiento de saldos de pallets en pedidos</td>
             <td>Edgard Asencio</td>
             <td class="cnt">4</td>
-            <td class="est-amber">◐ En curso — 4 acciones en desarrollo</td>
+            <td class="est-red">⚠ Alerta — 4 acciones vencidas</td>
           </tr>
           <tr class="detail-row" id="detail-acr11">
             <td colspan="6">
@@ -884,10 +886,10 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Definir flujo desde planificación a reubicación de saldos en EWM (SAP)</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Adaptar el IT de Picking EWM con el nuevo flujo de manejo de saldos</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Capacitar al equipo de trabajo para la implementación del nuevo flujo</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Medir efectividad de la acción mediante las diferencias de inventario</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Definir flujo desde planificación a reubicación de saldos en EWM (SAP)</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Adaptar el IT de Picking EWM con el nuevo flujo de manejo de saldos</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Capacitar al equipo de trabajo para la implementación del nuevo flujo</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Medir efectividad de la acción mediante las diferencias de inventario</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -901,7 +903,7 @@
             <td><span class="expand-icon" id="icon-acr12">▸</span>Diferencias de inventario · Ingreso de productos recuperados sin traslado en SAP</td>
             <td>Edgard Asencio</td>
             <td class="cnt">4</td>
-            <td class="est-amber">◐ En curso — 4 acciones en desarrollo</td>
+            <td class="est-red">⚠ Alerta — 4 acciones vencidas</td>
           </tr>
           <tr class="detail-row" id="detail-acr12">
             <td colspan="6">
@@ -909,10 +911,10 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Definir el proceso físico de entrega y recepción de productos recuperados</td><td class="resp">Jessica Pérez</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Adaptar el instructivo técnico: ingreso y almacenamiento de productos recuperados en SAP</td><td class="resp">Rodrigo Guajardo Vasquez</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Capacitar al equipo de trabajo de ambas áreas para la implementación del nuevo proceso</td><td class="resp">Rodrigo Guajardo Vasquez</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Medir la efectividad de la acción a través de las diferencias de inventario</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Definir el proceso físico de entrega y recepción de productos recuperados</td><td class="resp">Jessica Pérez</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Adaptar el instructivo técnico: ingreso y almacenamiento de productos recuperados en SAP</td><td class="resp">Rodrigo Guajardo Vasquez</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Capacitar al equipo de trabajo de ambas áreas para la implementación del nuevo proceso</td><td class="resp">Rodrigo Guajardo Vasquez</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Medir la efectividad de la acción a través de las diferencias de inventario</td><td class="resp">Edgard Asencio</td><td class="fec">31 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -951,7 +953,7 @@
             <td><span class="expand-icon" id="icon-acr9">▸</span>Pérdida nivel de servicio · Línea PITA</td>
             <td>Carlos Torres</td>
             <td class="cnt">12</td>
-            <td class="est-red">⚠ Alerta — 3 acciones vencidas · 6 en curso</td>
+            <td class="est-red">⚠ Alerta — 2 acciones vencidas · 6 en curso</td>
           </tr>
           <tr class="detail-row" id="detail-acr9">
             <td colspan="6">
@@ -963,7 +965,7 @@
                     <tr><td>Generar plan de capacitación para operadores PITA</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Capacitar a Operadores y Técnicos en base a plan propuesto</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">02 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Generar Procedimiento de entrega de equipos al área de operación</td><td class="resp">Carlos Torres</td><td class="fec">02 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Generar rutina de seguimiento para actualización de Planes de Mantenimiento</td><td class="resp">Rodrigo Vargas</td><td class="fec">28 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Generar rutina de seguimiento para actualización de Planes de Mantenimiento</td><td class="resp">Rodrigo Vargas</td><td class="fec">28 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Realizar medición de rpm de ambas amasadoras y evaluar comportamiento de masa</td><td class="resp">Javiera Poblete Ruiz</td><td class="fec">24 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Ejecutar plan y costear, estableciendo plan de implementación</td><td class="resp">Carlos Torres</td><td class="fec">28 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
                     <tr><td>Realizar una inspección para determinar estado del equipo</td><td class="resp">Carlos Torres</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
@@ -1180,7 +1182,7 @@
             <td><span class="expand-icon" id="icon-acr18">▸</span>NDS Molde Calabaza en 19% · Sem 34</td>
             <td>Juan Carlos Olave</td>
             <td class="cnt">7</td>
-            <td class="est-amber">◐ En curso — 7 acciones en desarrollo</td>
+            <td class="est-amber">◐ En curso — 6 acciones en desarrollo</td>
           </tr>
           <tr class="detail-row" id="detail-acr18">
             <td colspan="6">
@@ -1188,7 +1190,7 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Establecer seguimiento de análisis físico-químicos a cada elaboración con nuevos ajustes</td><td class="resp">Tamara Barros Díaz</td><td class="fec">04 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Establecer seguimiento de análisis físico-químicos a cada elaboración con nuevos ajustes</td><td class="resp">Tamara Barros Díaz</td><td class="fec">04 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Capacitar a operadores y Jefes de turno para escalar desviaciones de masa en vez de ajustar el agua</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">14 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Enviar reporte de ranking por turno de mermas por línea</td><td class="resp">Ignacio Henríquez</td><td class="fec">14 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Comparar el % de agua en uso vs. el estándar original de fórmula</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">14 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
@@ -1215,12 +1217,12 @@
       <div class="foco-card foco-red">
         <div class="foco-title red">⚠ Área Distribución — No llega en tiempo/forma · Portugal</div>
         <p class="foco-intro red">
-          2 acciones vencidas: la primera (47 días sin fecha ni avance) requiere acción inmediata;
+          2 acciones vencidas: la primera (49 días sin fecha ni avance) requiere acción inmediata;
           la segunda fue reprogramada al 30/09 y el responsable reporta gestión activa en curso.
         </p>
         <div class="foco-actions">
           <div class="foco-action">
-            <div class="days-badge-red">47 días</div>
+            <div class="days-badge-red">49 días</div>
             <div>
               <div class="action-text red">Definir el estándar operacional por sala: tiempo de espera, hitos clave y horario de corte.</div>
               <div class="action-date">Responsable: Felipe Guerrero &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">17 de julio de 2026 (vencida, sin nueva fecha)</span></div>
@@ -1240,6 +1242,31 @@
 
 
 
+      <!-- Logística: 8 acciones vencidas ACR11+ACR12 -->
+      <div class="foco-card foco-red">
+        <div class="foco-title red">⚠ Área Logística — Diferencias de inventario · ACR11 y ACR12</div>
+        <p class="foco-intro red">
+          8 acciones vencidas desde el 31 de agosto (4 días). Ambos ACR corresponden a Edgard Asencio
+          y requieren cierre formal o nueva fecha comprometida con avance.
+        </p>
+        <div class="foco-actions">
+          <div class="foco-action">
+            <div class="days-badge-red">4 días</div>
+            <div>
+              <div class="action-text red">ACR11 — Definir flujo, adaptar IT EWM, capacitar equipo y medir efectividad (4 acciones).</div>
+              <div class="action-date">Responsable: Edgard Asencio &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">31 de agosto de 2026 (vencida)</span></div>
+            </div>
+          </div>
+          <div class="foco-action">
+            <div class="days-badge-red">4 días</div>
+            <div>
+              <div class="action-text red">ACR12 — Definir proceso recuperados, adaptar instructivo, capacitar y medir efectividad (4 acciones).</div>
+              <div class="action-date">Responsable: Edgard Asencio &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">31 de agosto de 2026 (vencida)</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -1248,7 +1275,7 @@
 
 <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
 <footer class="site-footer">
-  Reporte generado el 1 de septiembre de 2026 &nbsp;·&nbsp;
+  Reporte generado el 4 de septiembre de 2026 &nbsp;·&nbsp;
   <strong>Excelencia Operacional Castaño</strong> &nbsp;·&nbsp;
   Datos extraídos de Microsoft Lists
 </footer>
