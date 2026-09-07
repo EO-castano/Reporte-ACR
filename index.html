@@ -463,7 +463,7 @@
     <p class="resumen-body">
       Al cierre del presente período, el seguimiento cuenta con
       <strong>18 ACR activos y 77 acciones comprometidas</strong>.
-      <span class="hi-green">6 ACR han cerrado el 100% de sus acciones</span>. Las áreas de <span class="hi-red">Distribución</span> y <span class="hi-red">Logística</span> requieren atención inmediata: Distribución registra 2 acciones vencidas (estándar operacional y multas transporte) y Logística acumula 8 acciones con fecha vencida desde el 31 de agosto.
+      <span class="hi-green">6 ACR han cerrado el 100% de sus acciones</span>. Las áreas de <span class="hi-red">Distribución</span>, <span class="hi-red">Logística</span> y <span class="hi-red">Producción</span> requieren atención inmediata: Distribución registra 2 acciones vencidas (estándar operacional y multas transporte), Logística acumula 8 acciones con fecha vencida desde el 31 de agosto, y Producción suma 1 acción vencida desde el 1 de septiembre.
     </p>
   </div>
 
@@ -486,11 +486,11 @@
       <div class="kpi-label">Finalizadas</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num" style="color:var(--amber)">29</div>
+      <div class="kpi-num" style="color:var(--amber)">28</div>
       <div class="kpi-label">En Curso</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-red">13</div>
+      <div class="kpi-num c-red">14</div>
       <div class="kpi-label">Atrasadas</div>
     </div>
   </div>
@@ -581,14 +581,15 @@
         </div>
       </div>
 
-      <!-- Producción: 10 fin, 12 ec, 0 at / 22 total (4 ACR) -->
+      <!-- Producción: 10 fin, 11 ec, 1 at / 22 total (4 ACR) -->
       <div class="area-item" onclick="toggleArea('area-produccion')">
         <div class="area-name"><span class="area-expand-icon" id="aicon-produccion">▸</span>Producción · 4 ACR · 22 acciones</div>
         <div class="area-bar">
           <div class="ab-g" style="width:45%"></div>
-          <div class="ab-a" style="width:55%"></div>
+          <div class="ab-a" style="width:50%"></div>
+          <div class="ab-r" style="width:5%"></div>
         </div>
-        <div class="area-detail">10 fin · 12 en curso · 0 atrasadas</div>
+        <div class="area-detail">10 fin · 11 en curso · 1 atrasada</div>
         <div class="area-acr-list" id="area-produccion">
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°3 — Mini Brownie Bañado · Merma por densidad</div>
@@ -608,9 +609,10 @@
             <div class="acr-sub-name">ACR N°15 — Molde XL · Mal estado por desgaste de teflón</div>
             <div class="area-bar">
               <div class="ab-g" style="width:50%"></div>
-              <div class="ab-a" style="width:50%"></div>
+              <div class="ab-a" style="width:38%"></div>
+              <div class="ab-r" style="width:12%"></div>
             </div>
-            <div class="area-detail">4 fin · 4 en curso · 0 atrasadas · 8 acciones</div>
+            <div class="area-detail">4 fin · 3 en curso · 1 atrasada · 8 acciones</div>
           </div>
           <div class="acr-sub-item">
             <div class="acr-sub-name">NDS Molde Calabaza en 19% · Semana 34</div>
@@ -1079,7 +1081,7 @@
             <td><span class="expand-icon" id="icon-acr15">▸</span>Molde XL · Mal estado por desgaste de teflón</td>
             <td>Pablo Ponce</td>
             <td class="cnt">8</td>
-            <td class="est-amber">◐ En curso — 4 acciones en desarrollo</td>
+            <td class="est-red">⚠ Alerta — 1 acción vencida · 3 en curso</td>
           </tr>
           <tr class="detail-row" id="detail-acr15">
             <td colspan="6">
@@ -1089,7 +1091,7 @@
                   <tbody>
                     <tr><td>Compra de moldes XL nuevos para reponer los dados deteriorados</td><td class="resp">Roberto Timmermann Figueroa</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Aplicación de desmoldeante a los moldes XL actuales</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Rutina de limpieza manual por cavidades en cada molde XL</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">01 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Rutina de limpieza manual por cavidades en cada molde XL</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">01 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
                     <tr><td>Implementar trazabilidad del ciclo de vida de moldes XL</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Definir estándar de vida útil máxima (2.000–3.000 ciclos) para moldes XL</td><td class="resp">Roberto Timmermann Figueroa</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Incorporar una tercera boquilla en la engrasadora de moldes XL</td><td class="resp">Carlos Torres</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
@@ -1216,12 +1218,12 @@
       <div class="foco-card foco-red">
         <div class="foco-title red">⚠ Área Distribución — No llega en tiempo/forma · Portugal</div>
         <p class="foco-intro red">
-          2 acciones vencidas: la primera (49 días sin fecha ni avance) requiere acción inmediata;
+          2 acciones vencidas: la primera (52 días sin fecha ni avance) requiere acción inmediata;
           la segunda fue reprogramada al 30/09 y el responsable reporta gestión activa en curso.
         </p>
         <div class="foco-actions">
           <div class="foco-action">
-            <div class="days-badge-red">49 días</div>
+            <div class="days-badge-red">52 días</div>
             <div>
               <div class="action-text red">Definir el estándar operacional por sala: tiempo de espera, hitos clave y horario de corte.</div>
               <div class="action-date">Responsable: Felipe Guerrero &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">17 de julio de 2026 (vencida, sin nueva fecha)</span></div>
@@ -1245,22 +1247,41 @@
       <div class="foco-card foco-red">
         <div class="foco-title red">⚠ Área Logística — Diferencias de inventario · ACR11 y ACR12</div>
         <p class="foco-intro red">
-          8 acciones vencidas desde el 31 de agosto (4 días). Ambos ACR corresponden a Edgard Asencio
+          8 acciones vencidas desde el 31 de agosto (7 días). Ambos ACR corresponden a Edgard Asencio
           y requieren cierre formal o nueva fecha comprometida con avance.
         </p>
         <div class="foco-actions">
           <div class="foco-action">
-            <div class="days-badge-red">4 días</div>
+            <div class="days-badge-red">7 días</div>
             <div>
               <div class="action-text red">ACR11 — Definir flujo, adaptar IT EWM, capacitar equipo y medir efectividad (4 acciones).</div>
               <div class="action-date">Responsable: Edgard Asencio &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">31 de agosto de 2026 (vencida)</span></div>
             </div>
           </div>
           <div class="foco-action">
-            <div class="days-badge-red">4 días</div>
+            <div class="days-badge-red">7 días</div>
             <div>
               <div class="action-text red">ACR12 — Definir proceso recuperados, adaptar instructivo, capacitar y medir efectividad (4 acciones).</div>
               <div class="action-date">Responsable: Edgard Asencio &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">31 de agosto de 2026 (vencida)</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Producción: 1 acción vencida ACR15 -->
+      <div class="foco-card foco-amber">
+        <div class="foco-title amber">⚠ Área Producción — Molde XL · Mal estado por desgaste de teflón</div>
+        <p class="foco-intro amber">
+          1 acción vencida desde el 1 de septiembre (6 días). Requiere cierre formal o nueva fecha comprometida con avance.
+        </p>
+        <div class="foco-actions">
+          <div class="foco-action">
+            <div class="days-badge-red">6 días</div>
+            <div>
+              <div class="action-text amber">Rutina de limpieza manual por cavidades en cada molde XL.</div>
+              <div class="action-date">Responsable: Pablo Ponce Navarrete &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">1 de septiembre de 2026 (vencida)</span></div>
             </div>
           </div>
         </div>
@@ -1274,7 +1295,7 @@
 
 <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
 <footer class="site-footer">
-  Reporte generado el 4 de septiembre de 2026 &nbsp;·&nbsp;
+  Reporte generado el 7 de septiembre de 2026 &nbsp;·&nbsp;
   <strong>Excelencia Operacional Castaño</strong> &nbsp;·&nbsp;
   Datos extraídos de Microsoft Lists
 </footer>
