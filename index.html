@@ -462,7 +462,7 @@
     <div class="section-title">Resumen de Análisis Causa Raíz — Estado de Avance</div>
     <p class="resumen-body">
       Al cierre del presente período, el seguimiento cuenta con
-      <strong>18 ACR activos y 77 acciones comprometidas</strong>.
+      <strong>18 ACR activos y 69 acciones comprometidas</strong>.
       <span class="hi-green">8 ACR han cerrado el 100% de sus acciones</span>. Las áreas de <span class="hi-red">Distribución</span>, <span class="hi-red">Logística</span>, <span class="hi-red">Producción</span> y <span class="hi-red">Comercial</span> requieren seguimiento: Distribución registra 1 acción reprogramada al 30 de septiembre (multas transporte en gestión), Logística acumula 8 acciones con fecha vencida desde el 31 de agosto, Producción suma 3 acciones vencidas en Molde XL (2 con nueva fecha al 29 de septiembre), y Comercial tiene 1 acción reprogramada al 15 de septiembre.
     </p>
   </div>
@@ -478,19 +478,19 @@
       <div class="kpi-label">ACR Finalizados</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num">77</div>
+      <div class="kpi-num">69</div>
       <div class="kpi-label">Acciones Totales</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-green">42</div>
+      <div class="kpi-num c-green">41</div>
       <div class="kpi-label">Finalizadas</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num" style="color:var(--amber)">19</div>
+      <div class="kpi-num" style="color:var(--amber)">15</div>
       <div class="kpi-label">En Curso</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-red">16</div>
+      <div class="kpi-num c-red">13</div>
       <div class="kpi-label">Atrasadas</div>
     </div>
   </div>
@@ -499,35 +499,32 @@
   <div class="panel" style="margin-bottom:28px;">
     <div class="panel-title">ACR por área &nbsp;<span class="hint-desktop" style="font-size:0.72rem;color:var(--muted);font-weight:700;">— Haz clic para ver el detalle por área</span></div>
 
-        <!-- Mantención: 5 fin, 8 ec, 3 at / 16 total -->
+        <!-- Mantención: 4 fin, 4 ec, 0 at / 8 total -->
       <div class="area-item" onclick="toggleArea('area-mantencion')">
-        <div class="area-name"><span class="area-expand-icon" id="aicon-mantencion">▸</span>Mantención · 2 ACR · 16 acciones</div>
+        <div class="area-name"><span class="area-expand-icon" id="aicon-mantencion">▸</span>Mantención · 2 ACR · 8 acciones</div>
         <div class="area-bar">
-          <div class="ab-g" style="width:31%"></div>
+          <div class="ab-g" style="width:50%"></div>
           <div class="ab-a" style="width:50%"></div>
-          <div class="ab-r" style="width:19%"></div>
         </div>
-        <div class="area-detail">5 finalizadas · 8 en curso · 3 atrasadas</div>
+        <div class="area-detail">4 finalizadas · 4 en curso · 0 atrasadas</div>
         <div class="area-acr-list" id="area-mantencion">
           <!-- ACR N°5: 1 fin, 2 ec, 1 at / 4 total -->
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°5 — Envasadora IPEKA · Variabilidad entre turnos</div>
             <div class="area-bar">
-              <div class="ab-g" style="width:25%"></div>
+              <div class="ab-g" style="width:50%"></div>
               <div class="ab-a" style="width:50%"></div>
-              <div class="ab-r" style="width:25%"></div>
             </div>
-            <div class="area-detail">1 fin · 2 en curso · 1 atrasada · 4 acciones</div>
+            <div class="area-detail">2 fin · 2 en curso · 0 atrasadas · 4 acciones</div>
           </div>
-          <!-- ACR N°9: 4 fin, 6 ec, 2 at / 12 total -->
+          <!-- ACR N°9: 2 fin, 2 ec, 0 at / 4 total -->
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°9 — Pérdida nivel de servicio · Línea PITA</div>
             <div class="area-bar">
-              <div class="ab-g" style="width:33%"></div>
+              <div class="ab-g" style="width:50%"></div>
               <div class="ab-a" style="width:50%"></div>
-              <div class="ab-r" style="width:17%"></div>
             </div>
-            <div class="area-detail">4 fin · 6 en curso · 2 atrasadas · 12 acciones</div>
+            <div class="area-detail">2 fin · 2 en curso · 0 atrasadas · 4 acciones</div>
           </div>
         </div>
       </div>
@@ -928,7 +925,7 @@
             <td><span class="expand-icon" id="icon-acr5">▸</span>Envasadora IPEKA · Variabilidad entre turnos</td>
             <td>Carlos Torres</td>
             <td class="cnt">4</td>
-            <td class="est-red">⚠ Alerta — 1 acción vencida · 2 en curso</td>
+            <td class="est-amber">◐ En curso — 2 acciones en desarrollo</td>
           </tr>
           <tr class="detail-row" id="detail-acr5">
             <td colspan="6">
@@ -936,7 +933,7 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Documentar estándar técnico de configuración y mantención de la IPEKA</td><td class="resp">Carlos Torres</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Documentar estándar técnico de configuración y mantención de la IPEKA</td><td class="resp">Carlos Torres</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Restablecimiento de condiciones básicas del equipo IPEKA</td><td class="resp">Carlos Torres</td><td class="fec">02 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Documentar estándar operacional de la IPEKA y capacitar a operadores de todos los turnos</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">16 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                     <tr><td>Actualizar plano de especificación del envase incorporando distancias del wicket</td><td class="resp">Tamara Barros Díaz</td><td class="fec">21 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
@@ -952,8 +949,8 @@
             <td class="area">Mantención</td>
             <td><span class="expand-icon" id="icon-acr9">▸</span>Pérdida nivel de servicio · Línea PITA</td>
             <td>Carlos Torres</td>
-            <td class="cnt">12</td>
-            <td class="est-red">⚠ Alerta — 2 acciones vencidas · 6 en curso</td>
+            <td class="cnt">4</td>
+            <td class="est-amber">◐ En curso — 2 acciones en desarrollo</td>
           </tr>
           <tr class="detail-row" id="detail-acr9">
             <td colspan="6">
@@ -961,18 +958,10 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Actualizar Matríz de Habilidades y Conocimientos para Laboreo y Horneo de PITA</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">23 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
-                    <tr><td>Generar plan de capacitación para operadores PITA</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Capacitar a Operadores y Técnicos en base a plan propuesto</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">02 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Generar Procedimiento de entrega de equipos al área de operación</td><td class="resp">Carlos Torres</td><td class="fec">02 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Generar rutina de seguimiento para actualización de Planes de Mantenimiento</td><td class="resp">Rodrigo Vargas</td><td class="fec">28 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Realizar medición de rpm de ambas amasadoras y evaluar comportamiento de masa</td><td class="resp">Javiera Poblete Ruiz</td><td class="fec">24 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Ejecutar plan y costear, estableciendo plan de implementación</td><td class="resp">Carlos Torres</td><td class="fec">28 ago 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
-                    <tr><td>Realizar una inspección para determinar estado del equipo</td><td class="resp">Carlos Torres</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Inspección técnica de rodillos</td><td class="resp">Carlos Torres</td><td class="fec">07 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Realizar nuevo diseño y solicitar CAPEX</td><td class="resp">Carlos Torres</td><td class="fec">11 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Estudio de tiempo para determinar la cantidad de operadores</td><td class="resp">Juan Olave Delgado</td><td class="fec">14 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Establecer plan para eliminar brechas y lograr un equipo en condición básica</td><td class="resp">Carlos Torres</td><td class="fec">30 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Restablecimiento de condiciones básicas del área de laboreo en Línea Pita</td><td class="resp">Carlos Torres</td><td class="fec">02 nov 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Documentar estándar técnico de configuración y mantención de línea PITA</td><td class="resp">Carlos Torres</td><td class="fec">28 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
+                    <tr><td>Actualizar matriz de H&amp;C para Laboreo y Horneo de Pita, capacitando al equipo de operaciones</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">02 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Establecimiento de plan de limpieza y desinfección de Silos de harina en periodo estival</td><td class="resp">Juan Olave Delgado</td><td class="fec">14 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -1329,7 +1318,7 @@
 
 <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
 <footer class="site-footer">
-  Reporte generado el 14 de septiembre de 2026 &nbsp;·&nbsp;
+  Reporte generado el 15 de septiembre de 2026 &nbsp;·&nbsp;
   <strong>Excelencia Operacional Castaño</strong> &nbsp;·&nbsp;
   Datos extraídos de Microsoft Lists
 </footer>
