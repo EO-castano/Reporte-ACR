@@ -482,15 +482,15 @@
       <div class="kpi-label">Acciones Totales</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-green">53</div>
+      <div class="kpi-num c-green">56</div>
       <div class="kpi-label">Finalizadas</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num" style="color:var(--amber)">17</div>
+      <div class="kpi-num" style="color:var(--amber)">12</div>
       <div class="kpi-label">En Curso</div>
     </div>
     <div class="kpi-tile">
-      <div class="kpi-num c-red">12</div>
+      <div class="kpi-num c-red">14</div>
       <div class="kpi-label">Atrasadas</div>
     </div>
   </div>
@@ -591,11 +591,10 @@
       <div class="area-item" onclick="toggleArea('area-produccion')">
         <div class="area-name"><span class="area-expand-icon" id="aicon-produccion">▸</span>Producción · 5 ACR · 27 acciones</div>
         <div class="area-bar">
-          <div class="ab-g" style="width:67%"></div>
-          <div class="ab-a" style="width:30%"></div>
-          <div class="ab-r" style="width:3%"></div>
+          <div class="ab-g" style="width:78%"></div>
+          <div class="ab-a" style="width:22%"></div>
         </div>
-        <div class="area-detail">18 fin · 8 en curso · 1 atrasada</div>
+        <div class="area-detail">21 fin · 6 en curso · 0 atrasadas</div>
         <div class="area-acr-list" id="area-produccion">
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°3 — Mini Brownie Bañado · Merma por densidad</div>
@@ -607,18 +606,18 @@
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°14 — Mini Brownie Bañado · Merma por desprendimiento de Burlete</div>
             <div class="area-bar">
+              <div class="ab-g" style="width:50%"></div>
               <div class="ab-a" style="width:50%"></div>
-              <div class="ab-r" style="width:50%"></div>
             </div>
-            <div class="area-detail">0 fin · 1 en curso · 1 atrasada · 2 acciones</div>
+            <div class="area-detail">1 fin · 1 en curso · 0 atrasadas · 2 acciones</div>
           </div>
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°15 — Molde XL · Mal estado por desgaste de teflón</div>
             <div class="area-bar">
-              <div class="ab-g" style="width:62%"></div>
-              <div class="ab-a" style="width:38%"></div>
+              <div class="ab-g" style="width:87.5%"></div>
+              <div class="ab-a" style="width:12.5%"></div>
             </div>
-            <div class="area-detail">5 fin · 3 en curso · 0 atrasadas · 8 acciones</div>
+            <div class="area-detail">7 fin · 1 en curso · 0 atrasadas · 8 acciones</div>
           </div>
           <div class="acr-sub-item">
             <div class="acr-sub-name">NDS Molde Calabaza en 19% · Semana 34</div>
@@ -731,27 +730,27 @@
         <div class="area-name"><span class="area-expand-icon" id="aicon-abastecimiento">▸</span>Abastecimiento · 2 ACR · 6 acciones</div>
         <div class="area-bar">
           <div class="ab-g" style="width:50%"></div>
-          <div class="ab-a" style="width:50%"></div>
+          <div class="ab-r" style="width:50%"></div>
         </div>
-        <div class="area-detail">3 finalizadas · 3 en curso · 0 atrasadas</div>
+        <div class="area-detail">3 finalizadas · 0 en curso · 3 atrasadas</div>
         <div class="area-acr-list" id="area-abastecimiento">
           <!-- ACR N°19 -->
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°19 — Quiebre de stock · Bolsa pita linaza chía</div>
             <div class="area-bar">
               <div class="ab-g" style="width:33%"></div>
-              <div class="ab-a" style="width:67%"></div>
+              <div class="ab-r" style="width:67%"></div>
             </div>
-            <div class="area-detail">1 fin · 2 en curso · 0 atrasadas · 3 acciones</div>
+            <div class="area-detail">1 fin · 0 en curso · 2 atrasadas · 3 acciones</div>
           </div>
           <!-- ACR N°20 -->
           <div class="acr-sub-item">
             <div class="acr-sub-name">ACR N°20 — Quiebre bolsa 400709 · King Molde Int Prot</div>
             <div class="area-bar">
               <div class="ab-g" style="width:67%"></div>
-              <div class="ab-a" style="width:33%"></div>
+              <div class="ab-r" style="width:33%"></div>
             </div>
-            <div class="area-detail">2 fin · 1 en curso · 0 atrasadas · 3 acciones</div>
+            <div class="area-detail">2 fin · 0 en curso · 1 atrasada · 3 acciones</div>
           </div>
         </div>
       </div>
@@ -1095,7 +1094,7 @@
             <td><span class="expand-icon" id="icon-acr14">▸</span>Mini Brownie Bañado · Merma por desprendimiento de Burlete</td>
             <td>Juan Carlos Olave</td>
             <td class="cnt">2</td>
-            <td class="est-red">⚠ Alerta — 1 acción vencida</td>
+            <td class="est-amber">◐ En curso — 1 acción en desarrollo</td>
           </tr>
           <tr class="detail-row" id="detail-acr14">
             <td colspan="6">
@@ -1103,7 +1102,7 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Evaluar con proveedor un instrumento que permita medir la adherencia del burlete al molde</td><td class="resp">Carlos Torres</td><td class="fec">29 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Evaluar con proveedor un instrumento que permita medir la adherencia del burlete al molde</td><td class="resp">Carlos Torres</td><td class="fec">29 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Generar plan de cambio para quedar con el 100% de los moldes con burlete en buen estado</td><td class="resp">Carlos Torres</td><td class="fec">16 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                   </tbody>
                 </table>
@@ -1126,14 +1125,14 @@
                 <table>
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
-                    <tr><td>Compra de moldes XL nuevos para reponer los dados deteriorados</td><td class="resp">Roberto Timmermann Figueroa</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Compra de moldes XL nuevos para reponer los dados deteriorados</td><td class="resp">Roberto Timmermann Figueroa</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Aplicación de desmoldeante a los moldes XL actuales</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Rutina de limpieza manual por cavidades en cada molde XL</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">01 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Implementar trazabilidad del ciclo de vida de moldes XL</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Definir estándar de vida útil máxima (2.000–3.000 ciclos) para moldes XL</td><td class="resp">Roberto Timmermann Figueroa</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Incorporar una tercera boquilla en la engrasadora de moldes XL</td><td class="resp">Carlos Torres</td><td class="fec">19 ago 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Enviar el molde actual al proveedor para su reparación de teflón</td><td class="resp">Roberto Timmermann Figueroa</td><td class="fec">30 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Presentar presupuesto para plan de cambio anual de moldes XL</td><td class="resp">Ignacio Henríquez</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Presentar presupuesto para plan de cambio anual de moldes XL</td><td class="resp">Ignacio Henríquez</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -1234,7 +1233,7 @@
                     <tr><td>Comparar el % de agua en uso vs. el estándar original de fórmula</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">14 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Generar pruebas de ajustes de hidratación en todos los panes granos &amp; semilla</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">21 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Ejecutar corrida piloto retornando a la hidratación estándar original</td><td class="resp">Pablo Ponce Navarrete</td><td class="fec">21 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Plan de trabajo y pruebas para reforzar fórmulas con ingredientes que aporten estructura (enzimas, emulsificantes)</td><td class="resp">Maritza Vera</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Plan de trabajo y pruebas para reforzar fórmulas con ingredientes que aporten estructura (enzimas, emulsificantes)</td><td class="resp">Maritza Vera</td><td class="fec">15 oct 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -1248,7 +1247,7 @@
             <td><span class="expand-icon" id="icon-acr19">▸</span>Quiebre de stock · Bolsa pita linaza chía</td>
             <td>Cristóbal Villanueva</td>
             <td class="cnt">3</td>
-            <td class="est-amber">◐ En curso — 2 acciones en desarrollo</td>
+            <td class="est-red">⚠ Alerta — 2 acción(es) vencida(s)</td>
           </tr>
           <tr class="detail-row" id="detail-acr19">
             <td colspan="6">
@@ -1257,8 +1256,8 @@
                   <thead><tr><th>Acción</th><th>Responsable</th><th>Fecha</th><th>Estado</th></tr></thead>
                   <tbody>
                     <tr><td>Reunión con proveedor en sus instalaciones para definir plan de mejora. Entrega de propuesta de control de pedido</td><td class="resp">Matías Zalduendo Vidal</td><td class="fec">14 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Evaluar proveedores back-up en insumos de empaque</td><td class="resp">Juan Osorio</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
-                    <tr><td>Construir el flujo de proceso estándar de seguimiento de OC proveedor</td><td class="resp">Cristóbal Villanueva</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Evaluar proveedores back-up en insumos de empaque</td><td class="resp">Juan Osorio</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
+                    <tr><td>Construir el flujo de proceso estándar de seguimiento de OC proveedor</td><td class="resp">Cristóbal Villanueva</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -1272,7 +1271,7 @@
             <td><span class="expand-icon" id="icon-acr20">▸</span>Quiebre bolsa 400709 · King Molde Int Prot</td>
             <td>Cristóbal Villanueva</td>
             <td class="cnt">3</td>
-            <td class="est-amber">◐ En curso — 1 acción en desarrollo</td>
+            <td class="est-red">⚠ Alerta — 1 acción(es) vencida(s)</td>
           </tr>
           <tr class="detail-row" id="detail-acr20">
             <td colspan="6">
@@ -1282,7 +1281,7 @@
                   <tbody>
                     <tr><td>Implementar seguimiento semanal obligatorio de alertas de desviación de consumo/punto de reorden</td><td class="resp">Matías Zalduendo Vidal</td><td class="fec">14 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
                     <tr><td>Automatizar reporte de datos maestros</td><td class="resp">Cristóbal Villanueva</td><td class="fec">21 sep 2026</td><td><span class="mbadge mbadge-green">Finalizado</span></td></tr>
-                    <tr><td>Evaluar proveedor alternativo o segunda fuente para bolsa 400709</td><td class="resp">Juan Osorio</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-amber">En curso</span></td></tr>
+                    <tr><td>Evaluar proveedor alternativo o segunda fuente para bolsa 400709</td><td class="resp">Juan Osorio</td><td class="fec">30 sep 2026</td><td><span class="mbadge mbadge-red">Atrasado</span></td></tr>
                   </tbody>
                 </table>
               </div>
@@ -1369,14 +1368,14 @@
       <div class="foco-card foco-amber">
         <div class="foco-title amber">⚠ Área Distribución — No llega en tiempo/forma · Portugal</div>
         <p class="foco-intro amber">
-          1 acción reprogramada al 30 de septiembre. Responsable reporta gestión activa en curso con firmas de contratos de transporte.
+          1 acción vencida al 30 de septiembre (5 días). Contratos de transporte en proceso de firma con proveedores restantes. Requiere cierre formal.
         </p>
         <div class="foco-actions">
           <div class="foco-action">
             <div class="days-badge-amber">Reprogramada</div>
             <div>
               <div class="action-text amber">Verificar y hacer cumplir condiciones de contrato con transporte — cobro por tiempo de espera y revisión de penalizaciones.</div>
-              <div class="action-date">Responsable: Alexis Díaz Jara &nbsp;·&nbsp; <span class="at">Reprogramada al 30 de septiembre de 2026 · Gestión en curso</span></div>
+              <div class="action-date">Responsable: Alexis Díaz Jara &nbsp;·&nbsp; <span class="at">Vencida el 30 de septiembre de 2026 · Pendiente de cierre formal</span></div>
             </div>
           </div>
         </div>
@@ -1384,6 +1383,31 @@
 
 
 
+
+
+      <!-- Abastecimiento: ACR19 y ACR20 atrasadas -->
+      <div class="foco-card foco-red">
+        <div class="foco-title red">⚠ Área Abastecimiento — Quiebre de proveedores · ACR19 y ACR20</div>
+        <p class="foco-intro red">
+          3 acciones vencidas al 30 de septiembre (5 días). ACR19 con 2 acciones sin cierre sobre proveedores back-up y flujo de seguimiento de OC; ACR20 con evaluación de proveedor alternativo pendiente.
+        </p>
+        <div class="foco-actions">
+          <div class="foco-action">
+            <div class="days-badge-red">5 días</div>
+            <div>
+              <div class="action-text red">ACR19 — Evaluar proveedores back-up en insumos de empaque y construir flujo estándar de seguimiento OC proveedor (2 acciones).</div>
+              <div class="action-date">Responsable: Juan Osorio / Cristóbal Villanueva &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">30 de septiembre de 2026 (vencida)</span></div>
+            </div>
+          </div>
+          <div class="foco-action">
+            <div class="days-badge-red">5 días</div>
+            <div>
+              <div class="action-text red">ACR20 — Evaluar proveedor alternativo o segunda fuente para bolsa 400709.</div>
+              <div class="action-date">Responsable: Juan Osorio &nbsp;·&nbsp; Fecha comprometida: <span class="overdue">30 de septiembre de 2026 (vencida)</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       <!-- Logística: 9 acciones vencidas ACR11+ACR12+ACR15log -->
@@ -1436,7 +1460,7 @@
 
 <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
 <footer class="site-footer">
-  Reporte generado el 28 de septiembre de 2026 &nbsp;·&nbsp;
+  Reporte generado el 05 de octubre de 2026 &nbsp;·&nbsp;
   <strong>Excelencia Operacional Castaño</strong> &nbsp;·&nbsp;
   Datos extraídos de Microsoft Lists
 </footer>
